@@ -1,0 +1,29 @@
+expo start / npm start => Inicia o expo
+
+json-server ./src/services/server.json --host 192.168.0.16 --port 3333
+^^ => Inica a Api
+
+json-server 
+./src/services/server.json => Caminha até a o local do server.json 
+--host 192.168.0.16 => Ip do Pc que foi colocado na api.ts 
+--port 3333 => Porta que vai ser utilizada, também colocada no api.ts
+
+json-server ./src/services/server.json 
+--host 192.168.0.16 
+--port 3333 
+---delay 3000 => Simular um delay no load dos itens
+
+expo install lottie-react-native > Biblioteca de animação de loadings
+
+
+AsyncStorage => Api para salvar dados no proprio aparelho do usuário
+expo install @react-native-async-storage/async-storage
+
+DateTimePicker => APra fazer aquele contador para definir a hora de lembrar
+expo install @react-native-community/datetimepicker
+
+Tab navigation 
+yarn add @react-navigation/bottom-tabs
+
+Api de notificação 
+expo install expo-notifications
